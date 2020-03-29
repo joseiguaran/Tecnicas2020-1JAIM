@@ -19,7 +19,9 @@ int main(){
             break;
 
         case 3:
-            sumarEdad(matriz, tamano);
+            int edades;    
+            edades=sumarEdad(matriz, tamano);
+            printf("La suma de edades del mes es: %d, edades");
             break;
 
         case 4:
