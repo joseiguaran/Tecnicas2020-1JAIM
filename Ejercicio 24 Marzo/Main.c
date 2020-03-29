@@ -1,4 +1,4 @@
-#include "Personas.h"
+#include "persona.h"
 
 int main(){
 
