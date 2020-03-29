@@ -3,6 +3,7 @@
 int menu()
 {
     int opcion;
+    printf("BIENVENIDO AL SISTEMA DE USUARIOS \n");
     printf("Seleccione la opcion \n");
     printf("1: Anadir usuario\n");
     printf("2: Personas por Mes\n");
