@@ -2,7 +2,7 @@
 
 int main(){
 
-    Personas matriz [12][5];
+    Persona matriz[12][5];
     int tamano[12] = {};
     int opcion=0;
     do{
