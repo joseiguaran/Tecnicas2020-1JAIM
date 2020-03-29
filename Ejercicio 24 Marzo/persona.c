@@ -38,7 +38,7 @@ void anadirUsuario(Persona matriz[][5], int tamano[]){
     int nacion;
     scanf("%d", &nacion);
 
-    if (tamano[mes - 1] <= 4) {
+    if (tamano[mes - 1] <= 5) {
     
            if (nacion = 1) {
              Nacionalidad nan = COLOMBIANA
