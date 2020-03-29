@@ -57,8 +57,7 @@ void anadirUsuario(Persona matriz[][5], int tamano[]){
         printf("Numero de Usuarios Excedido en el mes %d\n", mes);
 }
 
-void buscarMes(Persona matriz[][5], int tamano[])
-{
+void buscarMes(Persona matriz[][5], int tamano[]){
     int mes;
     printf("Mes ");
     scanf("%d", &mes);
@@ -73,50 +72,28 @@ void buscarMes(Persona matriz[][5], int tamano[])
     }
 }
 
-int fibonacci(int n)
-{
-    if (n < 2)
-        return n;
-    else
-        return fibonacci(n - 1) + fibonacci(n - 2);
-}
 
-void dayFibonacci(User mat[][5], int sizes[])
-{
-    char name[20];
 
-    printf("Nombre: ");
-    scanf("%s", &name);
+void buscarNacionalidad(Persona matriz[][5], int tamano[]{
+    
+    printf("Ingrese su Nacionalidad:\n1-Colombiana \n2-Extranjero\n");
+    int nacion;
+    scanf("%d", &nacion);
+    if (nacion = 1) {
+             Nacionalidad nan = COLOMBIANA
+           }
+           else  
+              Nacionalidad nan = EXTRANJERO
 
-    int i, j;
-    for (i = 0; i < 12; i++)
-    {
-        for (j = 0; j < sizes[i]; j++)
-        {
-            User u = mat[i][j];
-
-            if (!strcmp(u.name, name))
-                printf("Numero: %d\n", fibonacci(u.day));
-        }
-    }
-}
-
-void searchByGender(User mat[][5], int sizes[])
-{
-    printf("Genero:\n1)Hombre\n2)Mujer\n");
-    int genderChoice;
-    scanf("%d", &genderChoice);
-    Gender g = genderChoice == 1 ? Male : Female;
-
-    int i, j;
-    for (i = 0; i < 12; i++)
-    {
-        for (j = 0; j < sizes[i]; j++)
-        {
-            User u = mat[i][j];
-
-            if (u.gender == g)
-                printf("Nombre: %s\nFecha de nacimiento: %d/%d/%d\n-----------\n", u.name, u.day, i + 1, u.year);
+    int i;
+    int j;
+    for (i = 1; i <= 12; i=i+1){
+        
+        for (j = 0; j < tamano[i-1]; j=j+1){   
+        Persona p = matriz[i][j];
+            if (p.nacionalidad == nan){
+                printf("Nombre del usuario: %s\n Dia de N: %d\n Mes de N: %d\n Anio de N: %d\n", p.nombre, p.dia, p.mes, p.anio);
+                 }
         }
     }
 }
