@@ -6,7 +6,7 @@ int main(){
     int tamano[12] = {};
     int opcion=0;
     do{
-        option = menu();
+        opcion = menu();
         
         switch (opcion)
         {
