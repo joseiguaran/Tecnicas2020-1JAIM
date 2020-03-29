@@ -94,7 +94,7 @@ int sumarEdad (Persona matriz[][5], int tamano[]){
 
 
 
-void buscarNacionalidad(Persona matriz[][5], int tamano[]{
+void buscarNacionalidad(Persona matriz[][5], int tamano[]){
     
     printf("Ingrese su Nacionalidad:\n1-Colombiana \n2-Extranjero\n");
     int nacion;
