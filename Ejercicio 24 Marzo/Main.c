@@ -8,7 +8,7 @@ int main(){
     do{
         option = menu();
         
-        switch (option)
+        switch (opcion)
         {
         case 1:
             anadirUsuario(matriz, tamano);
@@ -23,7 +23,7 @@ int main(){
             break;
 
         case 4:
-            buscarGenero(matriz, tamano);
+            buscarNacionalidad(matriz, tamano);
             break;
 
         default:
