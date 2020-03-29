@@ -57,21 +57,19 @@ void anadirUsuario(Persona matriz[][5], int tamano[]){
         printf("Numero de Usuarios Excedido en el mes %d\n", mes);
 }
 
-void searchByMonth(User mat[][5], int sizes[])
+void buscarMes(Persona matriz[][5], int tamano[])
 {
-    int month;
-    printf("Mes: ");
-    scanf("%d", &month);
-
+    int mes;
+    printf("Mes ");
+    scanf("%d", &mes);
     int i;
-    for (i = 0; i < sizes[month - 1]; i++)
-    {
-        User u = mat[month - 1][i];
-        printf("Nombre: %s\nFecha de nacimiento: %d/%d/%d\nGenero:", u.name, u.day, month, u.year);
-        if (u.gender == Male)
-            printf(" Hombre\n------------\n");
+    for (i = 0; i < tamano[mes- 1]; i=i+1) {
+        Persona p = matriz[mes - 1][i];
+        printf("Nombre del usuario: %s\n Dia de N: %d\n Mes de N: %d\n Anio de N: %d\n Nacionalidad:", p.nombre, p.dia, p.mes, p.anio);
+        if (p.nacionalidad == COLOMBIANA)
+            printf(" Ciudadano Nacional \n");
         else
-            printf(" Mujer\n------------\n");
+            printf("Ciudadano Extranjero \n ");
     }
 }
 
