@@ -65,12 +65,32 @@ void buscarMes(Persona matriz[][5], int tamano[]){
     for (i = 0; i < tamano[mes- 1]; i=i+1) {
         Persona p = matriz[mes - 1][i];
         printf("Nombre del usuario: %s\n Dia de N: %d\n Mes de N: %d\n Anio de N: %d\n Nacionalidad:", p.nombre, p.dia, p.mes, p.anio);
-        if (p.nacionalidad == COLOMBIANA)
+        if (p.nacionalidad == COLOMBIANA){
             printf(" Ciudadano Nacional \n");
-        else
+        }else
             printf("Ciudadano Extranjero \n ");
     }
 }
+
+int sumarEdad (Persona matriz[][5], int tamano[]){
+    int recursion;
+    int edades=0;
+    int mes;
+    printf("Mes ");
+    scanf("%d", &mes);
+    recursion=tamano[mes-1];
+    if (recursion<0){
+        return 0;
+            
+    }else
+        
+        if (matriz[Mes-1][recursion].anio>0){
+             edades=2020- matriz[Mes-1][recursion].anio;
+             return edades + sumarEdad(Persona matriz[][5], recursion-1);
+             }
+
+}
+
 
 
 
