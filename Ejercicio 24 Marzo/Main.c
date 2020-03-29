@@ -26,9 +26,6 @@ int main(){
             buscarGenero(matriz, tamano);
             break;
 
-        case 0:
-            break;
-
         default:
             printf("Opcion no Disponible\n");
             break;
