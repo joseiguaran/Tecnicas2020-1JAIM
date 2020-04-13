@@ -1,0 +1,47 @@
+Programa de Administracion de Locales
+
+El siguiente programa se crea con la finalidad de permitirle al usuario administrar una base de datos por medio de las siguientes funcionalidades:
+
+• Inicializar una matriz del tamano que el usuario desee, con el fin de simular un centro comercial.
+• Mostrar la disponibilidad de locales en el centro comercial.
+• Anadir nuevos locales al centro comercial.
+• Sumar los anos que llevan todos los locales de un piso abiertos, con el fin de analizar los locales de mayor tradicion.
+• Buscar los locales abiertos por tipo (Almacen u Oficina).
+• Cambiar el nombre a aun local.
+• Vaciar o Borrar datos de un local.
+
+Estas funcionalidades son accesibles por medio de un menú donde el usuario escoge a que opción desea acceder. A continuacion se muestras las funcionalidades:
+
+Operacion iniciarMatriz: Creacion de matriz inicial
+
+    -Entradas: Numero de filas y columnas de la matriz, un array que contara el numero de locales ya asignados
+    -Salidas: Matriz modelando el centro comercial
+    -Conceptos Usados: Matrices Dinamicas, Memoria dinamica.
+
+Operacion disponibilidadLocal: Muestra los locales disponibles por piso
+
+    -Entradas: Matriz previamente creada jutno con las dimensiones
+    -Salidas: Imprime el numero de disponibles
+    -Conceptos Usados: Ciclos, Arrays
+    
+Operacion  anadirUsuario: Crea un local nuevo
+    -Entradas: Matriz, dimenciones, y coodenadas del local (Piso y Numero de Local)
+    -Conceptos Usados: Paso de Parametros por Referencia, Matrices, Condicionales y Enums 
+
+Operacion sumarAnios: sumar los anos que llevan todos los locales de un piso abiertos
+    -Entradas: Matriz, Dimensiones y Piso a analizar
+    -Salidas: Suma de los anios de apertura
+    -Conceptos Usados: Paso de Parametros por Referencia, Matrices, Recursion
+
+Operacion buscarOficinas: Buscar los locales abiertos por tipo (Almacen u Oficina).
+    -Entradas: Matriz, Dimensiones y tipo de local a buscar
+    -Salidas: Imprime todos los locales que cumplan los criterios
+    -Conceptos Usados: Parametros por referencia, Matrices y Ciclos
+
+Operacion cambiarNombre: Cambia el nombre a un local especifico
+    -Entradas: Matriz, dimensiones y coodenadas del local (Piso y Numero de Local)
+    -Conceptos Usados: Matrices
+
+Operacion vaciarLocal: Vaciar o Borrar datos de un local.
+    -Entradas: Matriz, Dimensiones y coodenadas del local (Piso y Numero de Local)
+    -Conceptos Usados: Matrices y Paso de parametros.
