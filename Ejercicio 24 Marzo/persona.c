@@ -23,7 +23,7 @@ void anadirUsuario(Persona matriz[][5], int tamano[]){
     char nombre[25];
 
     printf("Nombre ");
-    scanf("%s", &nombre);
+    scanf("%s", &nombre); // Luisa: No necesita el &
 
     printf("Anio ");
     scanf("%d", &anio);
@@ -38,9 +38,10 @@ void anadirUsuario(Persona matriz[][5], int tamano[]){
     int nacion;
     scanf("%d", &nacion);
 
+    // Este uso de Enums esta muy raro... no parece útil.
     if (tamano[mes - 1] <= 5) {
     
-           if (nacion = 1) {
+           if (nacion = 1) { // Ojo es ==
              Nacionalidad nan = COLOMBIANA
            }
            else  
@@ -83,7 +84,7 @@ int sumarEdad (Persona matriz[][5], int tamano[]){
     if (recursion<0){
         return 0;
             
-    }else
+    }else  // Ojo con la identación y las llaves aqui
         
         if (matriz[Mes-1][recursion].anio>0){
              edades=2020- matriz[Mes-1][recursion].anio;
@@ -95,12 +96,15 @@ int sumarEdad (Persona matriz[][5], int tamano[]){
 
 
 
+/* Los enums aqui no son muy útiles */
+/* El codigo se ve muy desorganizado  y esta duplicado este pedazzo con lo que haces
+en añadir persona*/
 void buscarNacionalidad(Persona matriz[][5], int tamano[]){
     
     printf("Ingrese su Nacionalidad:\n1-Colombiana \n2-Extranjero\n");
     int nacion;
     scanf("%d", &nacion);
-    if (nacion = 1) {
+    if (nacion = 1) { // ojo es ==
              Nacionalidad nan = COLOMBIANA
            }
            else  
