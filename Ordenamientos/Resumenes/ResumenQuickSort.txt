@@ -1,0 +1,61 @@
+Algoritmo quicksort 10
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 3
+ Tiempo de ejecucion: 3.000000
+ Comparaciones 1
+ Intercambios 9
+
+ Algoritmo quicksort 100
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 3
+ Tiempo de ejecucion: 3.000000
+ Comparaciones 196
+ Intercambios 136
+
+ Algoritmo quicksort 1.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida:26
+ Tiempo de ejecucion: 26.000000
+ Comparaciones 2452
+ Intercambios 1935
+
+ Algoritmo quicksort 10.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 42
+ Tiempo de ejecucion: 42.000000
+ Comparaciones 22819
+ Intercambios 13421
+
+ Algoritmo quicksort 100.000
+ ERROR
+
+Algoritmo quicksort 10 Ordenadas
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 3
+ Tiempo de ejecucion: 3.000000
+ Comparaciones 1
+ Intercambios 0
+
+ Algoritmo quicksort 100 Ordenadas
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 3
+ Tiempo de ejecucion: 3.000000
+ Comparaciones 196
+ Intercambios 0
+
+ Algoritmo quicksort 1.000 Ordenadas
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida:26
+ Tiempo de ejecucion: 22.000000
+ Comparaciones 2452
+ Intercambios 0
+
+ Algoritmo quicksort 10.000 Ordenadas
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 42
+ Tiempo de ejecucion: 38.000000
+ Comparaciones 22819
+ Intercambios0
+
+ Algoritmo quicksort 100.000
+ ERROR

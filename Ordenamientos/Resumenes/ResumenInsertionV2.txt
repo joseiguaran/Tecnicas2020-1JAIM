@@ -1,0 +1,70 @@
+Algoritmo Insertion 10
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 0
+ Tiempo de ejecucion: 0.000000
+ Comparaciones 19
+ Intercambios 9
+
+ Algoritmo Insertion 100
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 4
+ Tiempo de ejecucion: 4.000000
+ Comparaciones 2888
+ Intercambios 99
+
+ Algoritmo Insertion 1.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 4
+ Tiempo de ejecucion: 4.000000
+ Comparaciones 341485
+ Intercambios 999
+
+ Algoritmo Insertion 10.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 56
+ Tiempo de ejecucion: 56.000000
+ Comparaciones 21247992
+ Intercambios 9999
+
+ Algoritmo Insertion 100.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 5044
+ Tiempo de ejecucion: 5044.000000
+ Comparaciones 2032981980
+ Intercambios 99999
+
+Algoritmo Insertion 10
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 0
+ Tiempo de ejecucion: 0.000000
+ Comparaciones 19
+ Intercambios 0
+
+ Algoritmo Insertion 100
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 4
+ Tiempo de ejecucion: 4.000000
+ Comparaciones 2821
+ Intercambios 0
+
+ Algoritmo Insertion 1.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 4
+ Tiempo de ejecucion: 4.000000
+ Comparaciones 341485
+ Intercambios 0
+
+ Algoritmo Insertion 10.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 41
+ Tiempo de ejecucion: 56.000000
+ Comparaciones 21240295
+ Intercambios 0
+
+ Algoritmo Insertion 100.000
+ Inicio de Corrida: 0 
+Tiempo de Final de Corrida: 4812
+ Tiempo de ejecucion: 5044.000000
+ Comparaciones 2032980012
+ Intercambios 0
+
