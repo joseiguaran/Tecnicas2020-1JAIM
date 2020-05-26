@@ -51,6 +51,20 @@ do{
             vaciarLocal(matriz, tamano);
             break;
 			
+    case 7: 
+            selectionSort(matriz, fila, col);
+            break;
+     case 8: 
+            insertionSort(matriz, fila, col);
+            break;
+
+     case 9: 
+            startQS(matriz, fila, col);
+            break;
+
+     case 10: 
+            startMS(matriz, fila, col);
+            break;
         default:
             printf("Opcion no Disponible\n");
             break;
