@@ -25,7 +25,7 @@ do{
             break;
 
         case 2:
-            anadirUsuario(matriz, tamano,col);
+            anadirUsuario(matriz, tamano,col, fila);
             break;
 
         case 3: ;
@@ -65,6 +65,10 @@ do{
      case 10: 
             startMS(matriz, fila, col);
             break;
+
+
+      case 11: guardarCentro( matriz, fila, col);
+                break;
         default:
             printf("Opcion no Disponible\n");
             break;

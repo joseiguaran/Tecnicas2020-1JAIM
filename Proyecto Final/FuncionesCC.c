@@ -27,7 +27,7 @@ local_t** iniciarMatriz(int fila, int col,int tamano[])
     int i;
     int j;
     int h;
-    
+    if (matriz!=NULL){
         for(i = 0; i < fila; i=i+1){
 	    //Operacion para reserva de memoria dinamica
         matriz[i] = malloc(sizeof(local_t) * col);
@@ -42,6 +42,7 @@ local_t** iniciarMatriz(int fila, int col,int tamano[])
     }
     return matriz;
 }
+}
 // Operacion para verificar el numero de locales disponibles
 void disponibilidadLocal(local_t **matriz, int tamano[], int fila, int col)
 {
@@ -53,7 +54,7 @@ void disponibilidadLocal(local_t **matriz, int tamano[], int fila, int col)
     }
 }    
 // Operacion para anadir un local nuevo
-void anadirUsuario(local_t **matriz, int tamano[], int col)
+void anadirUsuario(local_t **matriz, int tamano[], int col, int fila)
 {
     	int idLocal; 
 	int pisoLocal;
@@ -71,12 +72,12 @@ void anadirUsuario(local_t **matriz, int tamano[], int col)
     printf("Numero del Local");
     scanf("%d", &numLocalxPiso);
 
-}while ((matriz[pisoLocal-1][numLocalxPiso-1].anioApertura)=!0);
+}while (((matriz[pisoLocal-1][numLocalxPiso-1].anioApertura)=!0) ||(pisoLocal>fila||numLocalxPiso>col)); // asegura que los datos suministrados sean correctos
 
     // revisa que no exista un local en esa posicion
 
 FILE *resumenLocales;
-     resumenLocales= fopen("resumenLocales.txt", "a");
+     resumenLocales= fopen("resumenLocales.txt", "a"); //abre archivo donde se guardaran los locales nuevos
     
 
 	printf("Anio de Apertura ");
@@ -198,6 +199,33 @@ int numeroLocal;
 	matriz[piso][numeroLocal].anioApertura = 0;
 }	
 	
+void guardarCentro(local_t **matriz, int fila, int col){ //funcion para guardar la informacion del centro comercial en un archivo.dat
+ /* int i, j;
+  local_t aux;
+  char path[] = "CC.dat";
+  FILE *archivoBinario = fopen( path ,"w" );
+
+  if ( archivoBinario =! NULL ){ // aseguraq ue exista acceso
+      
+   for(i = 0; i < fila; i=i+1){
+      for(j = 0; j < col; j=j+1){
+        if( matriz[i][j].anioApertura!=0 ){  // solo guarda locales llenos  
+          aux = matriz[ i ][ j ];
+          fwrite( &aux, sizeof( local_t ), 1, archivoBinario ); 
+
+      }
+
+      }
+    } 
+    printf( "Se almaceno la infromacion" );   
+   fclose( archivoBinario ); 
+}
+   else {
+    printf( "No se puede acceder al archivo" );
+   } 
+   */
+}
+
 void insertionSort(local_t **matriz, int fila, int col ){
     
  int i, j, x, min, temp, spot; 

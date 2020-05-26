@@ -30,7 +30,7 @@ typedef struct Local{
 int menu();
 local_t** iniciarMatriz(int fila, int col, int tamano[]);
 void disponibilidadLocal(local_t **matriz, int tamano[], int fila, int col);
-void anadirUsuario(local_t **matriz, int tamano[], int col);
+void anadirUsuario(local_t **matriz, int tamano[], int col, int fila);
 int sumarAnios (local_t **matriz, int recursion, int piso, int col);
 void buscarOficinas(local_t **matriz, int tamano[], int fila, int col);
 void  cambiarNombre(local_t **matriz, int tamano[], int col);
@@ -45,5 +45,5 @@ int partirYOrdenarPivoteInicial(int arreglo[], int posPrimerElem,
 void intercambiar(int arreglo[], int posicion1, int posicion2);
 void merge(int arreglo[], int posInicial, int posMitad, int posFinal);
 void mergeSort(int arreglo[], int posInicial, int posFinal);
-
+void guardarCentro(local_t **matriz, int fila, int col);
 #endif /* FUNCIONESCC_H_ */
