@@ -26,7 +26,7 @@ Operacion disponibilidadLocal: Muestra los locales disponibles por piso
     
 Operacion  anadirUsuario: Crea un local nuevo
     -Entradas: Matriz, dimenciones, y coodenadas del local (Piso y Numero de Local)
-    -Conceptos Usados: Paso de Parametros por Referencia, Matrices, Condicionales y Enums 
+    -Conceptos Usados: Paso de Parametros por Referencia, Matrices, Condicionales, Enums y uso de archivos.
 
 Operacion sumarAnios: sumar los anos que llevan todos los locales de un piso abiertos
     -Entradas: Matriz, Dimensiones y Piso a analizar
@@ -45,3 +45,23 @@ Operacion cambiarNombre: Cambia el nombre a un local especifico
 Operacion vaciarLocal: Vaciar o Borrar datos de un local.
     -Entradas: Matriz, Dimensiones y coodenadas del local (Piso y Numero de Local)
     -Conceptos Usados: Matrices y Paso de parametros.
+    
+Operacion selectionSort: ordenar la matriz por medio del algoritmo de seleccion con base en el numero de empleados.
+    -Entradas: Matriz, Dimensiones.
+    -Conceptos Usados: Matrices, algoritmos de ordenamiento, arrays y ciclos.
+    
+Operacion insertionSort: ordenar la matriz por medio del algoritmo de insercion con base en el numero de ventas.
+    -Entradas: Matriz, Dimensiones.
+    -Conceptos Usados: Matrices, algoritmos de ordenamiento, arrays y ciclos.
+
+Operacion startQS: ordenar la matriz por medio del algoritmo quicksort con base en el numero de sucursales dentro del centro comercial.
+    -Entradas: Matriz, Dimensiones.
+    -Conceptos Usados: Matrices, algoritmos de ordenamiento, arrays, ciclos,condicionales y llamado a funciones.
+    
+Operacion startMS: ordenar la matriz por medio del algoritmo mergesort con base en el numero de inventario disponible.
+    -Entradas: Matriz, Dimensiones.
+    -Conceptos Usados: Matrices, algoritmos de ordenamiento, arrays, ciclos, condicionales y llamado a funciones.
+    
+Operacion guardarCentro: guarda la informacion de los locales en un archivo binario
+    -Entradas: Matriz, Dimensiones.
+    -Conceptos Usados: Matrices, arrays, ciclos, condicionales y uso de archivos.
